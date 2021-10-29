@@ -1,0 +1,21 @@
+{
+  "name": "posedetection_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@mediapipe/pose": "^0.4.1633558788",
+    "@tensorflow-models/pose-detection": "^0.0.6",
+    "@tensorflow/tfjs-backend-wasm": "^3.11.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.11.0",
+    "@tensorflow/tfjs-converter": "^3.11.0",
+    "@tensorflow/tfjs-core": "^3.11.0",
+    "parcel-bundler": "^1.12.5",
+    "regenerator-runtime": "^0.13.9",
+    "scatter-gl": "^0.0.11"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
