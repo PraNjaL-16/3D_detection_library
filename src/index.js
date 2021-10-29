@@ -41,6 +41,8 @@ let inferenceTimeSum = 0,
   lastPanelUpdate = 0;
 let rafId;
 
+console.log("changes");
+
 async function createDetector() {
   switch (STATE.model) {
     case posedetection.SupportedModels.PoseNet:
